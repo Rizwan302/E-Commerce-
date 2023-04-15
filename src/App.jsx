@@ -9,11 +9,12 @@ import Product from "./pages/product/product";
 import Products from "./pages/Products/Products";
 import Navbar from "./components/Navbar/Navbar";
 import Feeter from "./components/Feeter/Feeter";
+import './App.scss'
 
 
 const Layout = () =>{
   return(
-    <div>
+    <div className="app">
       <Navbar/>
       <Outlet/>
       <Feeter/>
