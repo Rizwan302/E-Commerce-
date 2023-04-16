@@ -3,9 +3,8 @@ import { Link } from 'react-router-dom'
 import './Card.scss'
 
 export default function Card({item}) {
-    console.log(item)
   return (
-    <Link className='link' to={`/product/${item.id}`}>
+    <Link className='link' to={`/products/${item.id}`}>
         <div className="card">
             <div className="image">
                 {item.isNew && <span>New Season</span>}
