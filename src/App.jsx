@@ -5,10 +5,10 @@ import {
   RouterProvider,
   Outlet
 } from "react-router-dom";
-import Product from "./pages/product/product";
 import Products from "./pages/Products/Products";
 import Navbar from "./components/Navbar/Navbar";
 import Feeter from "./components/Feeter/Feeter";
+import Product from "./pages/Product/Product";
 import './App.scss'
 
 
@@ -33,7 +33,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/product/:id",
-        element: <Product/>,
+        element: <Product />,
       },
       {
         path: "/products/:id",
