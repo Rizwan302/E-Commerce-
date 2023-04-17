@@ -4,8 +4,8 @@ import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import BalanceIcon from '@mui/icons-material/Balance';
 
-export default function Product() {
 
+export default function Product() {
   const [selectedImg, setselectedImg] = useState(0)  
   const [quantity, setquantity] = useState(1)  
 
