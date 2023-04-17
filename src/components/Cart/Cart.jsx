@@ -31,7 +31,7 @@ export default function Cart() {
       <h1>Products in Your Cart</h1>
       {data?.map(item =>(
         <div className="item" key={item.id}>
-          <img src={item.img} alt="" />
+          <img src={item.img2} alt="" />
           <div className="details">
             <h1>{item.title}</h1>
             <p>{item.desc?.substring(0,100)}</p>
